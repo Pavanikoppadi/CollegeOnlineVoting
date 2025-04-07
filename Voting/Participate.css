@@ -1,0 +1,78 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .App-header {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .App-header img {
+    max-width: 100px;
+    vertical-align: middle;
+  }
+  
+  .App-header h1 {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .Participate-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .Participate-form-container h2 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Form-group {
+    margin-bottom: 20px;
+  }
+  
+  .Form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .Form-group input, .Form-group textarea, .Form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Error-message {
+    color: #f00;
+    font-size: 12px;
+  }
+  
+.p {
+    display: block;
+    margin-left:150px;
+    border: none;
+    background-color: #004080;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    width:100px;
+    height:50px;
+  }
+  
+  .Form-group button:hover {
+    background-color: #003366;
+  }

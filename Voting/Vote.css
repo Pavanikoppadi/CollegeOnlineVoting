@@ -1,0 +1,44 @@
+/* Voting.css */
+
+.participant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Change the number to control columns per row */
+  gap: 30px; /* Adjust the gap between boxes */
+}
+
+.participant-box {
+  border: 10px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Style the "Vote" button */
+.bye {
+  background-color:#004080;;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top:15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float:left;
+  width:80px;
+  height:50px;
+  font-size: 24px;
+}
+
+.participant-box button:hover {
+  background-color: black; 
+}
+
+h2{
+  text-align: center;;
+}
+.i{
+  height: 80px;
+  width:100px;
+  float:right;
+}

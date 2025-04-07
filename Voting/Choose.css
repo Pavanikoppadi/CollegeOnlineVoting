@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+header {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #b8d4ff; /* Light blue shade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+    width: 300px;
+}
+.profile-box img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.profile-box h2 {
+    color: #004080;
+    margin-bottom: 5px;
+    font-size: 18px; 
+}
+.profile-box p {
+    color: #666;
+    margin: 5px 0;
+    font-size: 14px;
+}
+.voting-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #b8d4ff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+    width: 300px;
+    margin-top: 20px;
+}
+.voting-box h2 {
+    color: #004080;
+    margin-bottom: 15px;
+    font-size: 18px; 
+}
+.voting-box select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px; 
+}
+.hello {
+    width:80px;
+    height: 50px;;
+    margin-right:10px;
+    border: none;
+    background-color: #004080;
+    color:white;
+    border-radius: px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.voting-box button:hover {
+    background-color: #003366;
+}
+p{
+    color:black;
+}
